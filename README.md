@@ -21,5 +21,12 @@ All package information, including previous versions and metadata, is stored und
 └── vault/                 # backup copies of binaries per version
 ```
 
-current documentation is in:
-[Lyra Package Manager Docs](https://docs.google.com/document/d/1OVEcteiQob15ftbCBXE5kjshAIQ0-OPxq-sOjcwaShY/edit?usp=sharing)
+Usable commands currently are:
+```
+  lyra -i <package> <url>               Install package (auto-mutes old version)
+  lyra -rmpkg <pkg1> [pkg2] [pkg3]...  Remove one or more packages
+  lyra -list                            List installed packages
+  lyra -m <package>                     Mute current, switch to muted version
+```
+
+Refer to [Lyra Package Manager Docs](https://docs.google.com/document/d/1OVEcteiQob15ftbCBXE5kjshAIQ0-OPxq-sOjcwaShY/edit?usp=sharing) for anything you do not understand or see.
