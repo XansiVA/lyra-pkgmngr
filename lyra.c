@@ -1,5 +1,5 @@
 //Copyright (c) 2025 Xansi Licensed under the MIT License (see LICENSE file)
-//Owned by Xansi - chaoscatsofficial@gmail.com, https://github.com/XansiVA
+//Owned by XansiVA - chaoscatsofficial@gmail.com, https://github.com/XansiVA
 
 //Cjson library is used for JSON handling (MIT License) 
 //Owned by Dave Gamble - https://github.com/DaveGamble
