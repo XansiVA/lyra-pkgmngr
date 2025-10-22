@@ -1,4 +1,4 @@
-//(C) Lyra Package Manager Developers - Licensed under MIT License
+//Copyright (c) 2025 Xansi Licensed under the MIT License (see LICENSE file)
 //Owned by Xansi - chaoscatsofficial@gmail.com, https://github.com/XansiVA
 
 //Cjson library is used for JSON handling (MIT License) 
