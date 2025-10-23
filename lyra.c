@@ -1323,7 +1323,7 @@ void clean_everything() {
         return;
     }
     
-    printf("\n🧹 Starting nuclear cleanup...\n");
+    printf("\n Starting nuclear cleanup...\n");
     
     snprintf(lyra_dir, sizeof(lyra_dir), "%s/.lyra", home);
     
