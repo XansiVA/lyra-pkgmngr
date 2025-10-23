@@ -13,6 +13,10 @@ Each installed package can:
 Be muted (reverted) to a previous version.
 Be removed cleanly.
 Be listed with full version and backup info.
+others are included in the documentation;
+
+**WARNING**
+This is still in early development age, may not currently work completely as expected, please send bugs to a pull request.
 
 All package information, including previous versions and metadata, is stored under:
 ```
@@ -24,9 +28,18 @@ All package information, including previous versions and metadata, is stored und
 Usable commands currently are:
 ```
   lyra -i <package> <url>               Install package (auto-mutes old version)
-  lyra -rmpkg <pkg1> [pkg2] [pkg3]...  Remove one or more packages
+  lyra -rmpkg <pkg1> [pkg2] [pkg3]...  Remove packages (keeps vault copies)
+  lyra -rmcpkg <pkg1> [pkg2] ...       Remove packages completely (deletes vault)
   lyra -list                            List installed packages
-  lyra -m <package>                     Mute current, switch to muted version
+  lyra -lv <package>                    List all versions of a package
+  lyra -m <package>                     Cycle to next muted version
+  lyra -m <package@version>             Switch to specific version
+  lyra -um <package>                    Unmute package (reactivate muted version)
+  lyra -ss                              Take system snapshot
+  lyra -ssl                             List all snapshots
+  lyra -rsw <date> [number]             Restore snapshot (DD-MM-YYYY)
+  lyra -U                               Update packages (GitHub or mirror)
+  lyra -clean                           NUCLEAR: Delete everything and reset
 ```
 
 # HOW TO USE.
