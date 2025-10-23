@@ -1,4 +1,4 @@
-# Lyra Package Manager (v0.2) MIT
+# Lyra Package Manager (v0.7)
 Copyright (c) 2025 Xansi
 Licensed under the MIT License (see LICENSE file)
 
