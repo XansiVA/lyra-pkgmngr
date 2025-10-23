@@ -6,6 +6,7 @@
 //Cjson library is used for JSON handling (MIT License) 
 //Owned by Dave Gamble - https://github.com/DaveGamble
 
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -1469,5 +1470,5 @@ int main(int argc, char *argv[]) {
         return 1;
     }
     
-    return 0;
+    return 0; //No Schneegans / Simon, I am not putting it in parenthasies 
 }
