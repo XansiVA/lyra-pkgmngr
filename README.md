@@ -1,6 +1,6 @@
 # Lyra Package Manager (v0.7)
 Copyright (c) 2025 Xansi
-Licensed under the MIT License (see LICENSE file)
+Licensed under the GPL v3.0 License (see LICENSE file)
 
 Lyra is a lightweight, JSON-based package manager built in C that uses cJSON for structured metadata storage.
 It manages local binary packages, keeps version history, and maintains a full backup system — all stored neatly inside the user’s home directory.
