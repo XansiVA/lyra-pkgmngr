@@ -40,6 +40,7 @@ Usable commands currently are:
   lyra -rsw <date> [number]             Restore snapshot (DD-MM-YYYY)
   lyra -U                               Update packages (GitHub or mirror)
   lyra -clean                           NUCLEAR: Delete everything and reset
+  lyra -uninstall                       Completely uninstall Lyra
 ```
 
 # HOW TO USE.
