@@ -49,7 +49,8 @@ Servers to host packages with,
 or a completely functioning package manager to pull from them.
 
 1. **git clone the repo**
-2. **sudo chmod +x build.sh** then **sudo ./build.sh**
+2. **cd ~/lyra-pkgmngr**
+3. **sudo chmod +x build.sh** then **sudo ./build.sh**
 
 Use these as test packages, If you have any issues
 ```
