@@ -1,4 +1,4 @@
-# Lyra Package Manager (v0.7)
+# Lyra Package Manager (v0.8)
 Copyright (c) 2025 Xansi
 Licensed under the GPL v3.0 License (see LICENSE file)
 
@@ -28,6 +28,10 @@ All package information, including previous versions and metadata, is stored und
 Usable commands currently are:
 ```
   lyra -i <package> <url>               Install package (auto-mutes old version)
+  lyra -fc <package>                    Freeze-copy package (encrypted backup)
+  lyra -fl                              List all frozen copies
+  lyra -r <package@version>             Restore from frozen copy
+  lyra -frm                             Clean old frozen copies (keep latest)
   lyra -rmpkg <pkg1> [pkg2] [pkg3]...  Remove packages (keeps vault copies)
   lyra -rmcpkg <pkg1> [pkg2] ...       Remove packages completely (deletes vault)
   lyra -list                            List installed packages
@@ -38,7 +42,7 @@ Usable commands currently are:
   lyra -ss                              Take system snapshot
   lyra -ssl                             List all snapshots
   lyra -rsw <date> [number]             Restore snapshot (DD-MM-YYYY)
-  lyra -U                               Update packages (GitHub or mirror) atleast whenever I make the mirrors.
+  lyra -U                               Update packages (GitHub or mirror)
   lyra -clean                           NUCLEAR: Delete everything and reset
   lyra -uninstall                       Completely uninstall Lyra
 ```
