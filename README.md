@@ -32,8 +32,8 @@ Usable commands currently are:
   lyra -fl                              List all frozen copies
   lyra -r <package@version>             Restore from frozen copy
   lyra -frm                             Clean old frozen copies (keep latest)
-  lyra -rmpkg <pkg1> [pkg2] [pkg3]...  Remove packages (keeps vault copies)
-  lyra -rmcpkg <pkg1> [pkg2] ...       Remove packages completely (deletes vault)
+  lyra -rmpkg <pkg1> [pkg2] [pkg3]...   Remove packages (keeps vault copies)
+  lyra -rmcpkg <pkg1> [pkg2] ...        Remove packages completely (deletes vault)
   lyra -list                            List installed packages
   lyra -lv <package>                    List all versions of a package
   lyra -m <package>                     Cycle to next muted version
